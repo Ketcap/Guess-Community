@@ -25,14 +25,14 @@ Template.App_home.onCreated(function(){
 Template.App_home.onRendered(function(){
 	_self = this;
 	_self.timer.set(15);
-	// setInterval(function(){
-	// 	let time = _self.timer.get();
-	// 	if(time <= 0 ){
-	// 		_self.wrong_answer.set(_self.question.get());
-	// 		_self.true_answers.set(false);
-	// 	}
-	// 	_self.timer.set((time - 0.10).toFixed(1));
-	// },100)
+	setInterval(function(){
+		let time = _self.timer.get();
+		if(time <= 0 ){
+			_self.wrong_answer.set(_self.question.get());
+			_self.true_answers.set(false);
+		}
+		_self.timer.set((time - 0.10).toFixed(1));
+	},100)
 })
 
 Template.App_home.helpers({
