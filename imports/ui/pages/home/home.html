@@ -1,0 +1,38 @@
+<template name="App_home">
+	{{#if typeof true_answers 'boolean'}}
+		{{> App_finish data=wrong_answer}}
+	{{else}}
+	<div class="row valign-wrapper" style="height:100vh">
+		{{#if question}}
+		<div class="row valign-wrapper inline-on-small">
+			{{#with question}}
+			<div class="col s12 m6">
+				<div class="card" style="border-radius:5px;">
+					<div class="card-image" style="padding:.5em">
+						<img src="{{image}}">
+					</div>
+					<div class="card-content center" style="padding:15px;">
+						{{timer}} Saniye Kaldı
+						<br>
+						<b>{{count true_answers}} / {{count community}}</b>
+
+					</div>
+				</div>
+			</div>
+			{{/with}}
+			<div class="col s12 m6 center row" style="padding:.5em">
+				{{#with answers}}
+				{{#each answers}}
+				<div class="col s6 m9" style="margin-bottom:0.5em">
+					<a class="btn-large col s12 waves-effect waves-light answer" style=" background-color:transparent; border:1px #efefef solid;">{{name}}</a>
+				</div>
+				{{/each}}
+				{{/with}}
+			</div>
+		</div>
+		{{else}}
+			{{> loading}}
+		{{/if}}
+	</div>
+	{{/if}}
+</template>

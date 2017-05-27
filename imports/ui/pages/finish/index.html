@@ -1,0 +1,35 @@
+<template name="App_finish">
+	<div class="row valign-wrapper" style="height:100vh">
+		<div class="col s12 m8 offset-m2">
+			<div class="card">
+				<div class="card-content">
+					{{#if data.name}}
+					<p class="flow-text">Üzgünüz Soruyu Bilemediniz.
+						<br/>
+						<b>{{data.name}}</b> kişisini bilemediniz.
+						<br/>
+						{{#if data.twitter}}
+						<a href="https://twitter.com/{{data.twitter}}" target="_blank"><span class="socicon socicon-twitter left" style="padding:.2em;"></span></a> Adresinden ulaşabilirsiniz.
+						{{/if}}
+						{{#if data.linkedin}}
+						<a href="{{data.linkedin}}"  target="_blank"><span class="socicon socicon-linkedin left" style="padding:.1em;"></span></a> Adresinden ulaşabilirsiniz.
+						{{/if}}
+					</p>
+					{{/if}}
+				</div>
+				<div class="card-tabs">
+					<ul class="tabs tabs-fixed-width">
+						<li class="tab"><a href="#test4">Github</a></li>
+					</ul>
+				</div>
+				<div class="card-content">
+					<div id="github" class="flow-text">
+						Projede eksik gördüğünüz yerler ve eklenilmesini istediğiniz kişiler var ise
+						<a href=""  target="_blank"><span class="socicon socicon-github" style="padding:.2em;"></span> Github Adresi</a>'nden
+						issue açarak yada pull request oluşturarak güncel tutmama yardımcı olabilirsiniz.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
