@@ -68,7 +68,11 @@ Template.App_home.events({
 		let already_guessed = instance.true_answers.get();
 		already_guessed.push(this._id);
 		instance.true_answers.set(already_guessed);
-
+		if(Community.find().count() == already_guessed.length){
+			_self.true_answers.set(false);
+			FlowRouter.go('/win');
+			return false;
+		}
 		instance.question.set(false);
 		instance.answers.set(false);
 		Meteor.call('community.question.get',already_guessed,function(err,resp){
