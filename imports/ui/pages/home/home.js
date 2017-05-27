@@ -73,6 +73,7 @@ Template.App_home.events({
 		instance.answers.set(false);
 		Meteor.call('community.question.get',already_guessed,function(err,resp){
 			if(!err){
+				_self.timer.set(15);
 				_self.question.set(resp.question);
 				_self.answers.set(Shuffle(resp.answers));
 			}
