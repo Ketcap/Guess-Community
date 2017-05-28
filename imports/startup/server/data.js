@@ -144,6 +144,17 @@ export const CommunityMembers = [
 		"image":"https://pbs.twimg.com/profile_images/844197944224026625/a2eKTDfV.jpg",
 		"twitter":"alpcanaydin"
 	},
+	{
+		"name":"Tuna Vargı",
+		"image":"https://pbs.twimg.com/profile_images/668788508677554176/v6jsI7pM.jpg",
+		"twitter":"tunavargi"
+	},
+	{
+		"name":"Yalçın Çakır",
+		"image":"http://odatv.com/images/2017_02/2017_02_03/yalcin-cakir-muge-anliya-rakip-oluyor-0302171200_l2.jpg",
+		"twitter":"yalcincakir"
+	},
+	
 
 
 
