@@ -144,7 +144,13 @@ export const CommunityMembers = [
 		"image":"https://pbs.twimg.com/profile_images/844197944224026625/a2eKTDfV.jpg",
 		"twitter":"alpcanaydin"
 	},
-
+	{
+ 		"name": "Semih Basmacı" ,
+ 		"image": "https://hipolabs.com/static/img/team/semih.jpg" ,
+ 		"github": "mortargrind",
+ 		"ipucu": "Hipolabs Web Application Developer",
+ 		"hakkinda": "Semih is the second half of our effective front-end team, where he specializes in web application infrastructure and bringing responsive sites to life. His background in team leadership makes him an effective communicator, a useful skill when discussing complex web applications. When he is not coding, Semih enjoys MMORPGs."
+ 	},
 
 
 
