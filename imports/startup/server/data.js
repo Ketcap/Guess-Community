@@ -144,6 +144,13 @@ export const CommunityMembers = [
 		"image":"https://pbs.twimg.com/profile_images/844197944224026625/a2eKTDfV.jpg",
 		"twitter":"alpcanaydin"
 	},
+	{
+		"name": "Λbdullah Uğraşkan" ,
+		"image": "https://pbs.twimg.com/profile_images/855148047063502849/GDuRF9Yj.jpg" ,
+		"twitter": "apoStyLEE",
+		"ipucu": "Trabzon SiberUzay",
+		"hakkinda": "Yazılım Zanaatkarı for SiberUzay 🚀 Trabzon"
+	},
 
 
 
