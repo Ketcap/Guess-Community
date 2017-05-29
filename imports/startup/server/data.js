@@ -151,6 +151,23 @@ export const CommunityMembers = [
  		"ipucu": "Hipolabs Web Application Developer",
  		"hakkinda": "Semih is the second half of our effective front-end team, where he specializes in web application infrastructure and bringing responsive sites to life. His background in team leadership makes him an effective communicator, a useful skill when discussing complex web applications. When he is not coding, Semih enjoys MMORPGs."
  	},
+  {
+		"name":"Tuna Vargı",
+		"image":"https://pbs.twimg.com/profile_images/668788508677554176/v6jsI7pM.jpg",
+		"twitter":"tunavargi"
+	},
+	{
+		"name":"Yalçın Çakır",
+		"image":"http://odatv.com/images/2017_02/2017_02_03/yalcin-cakir-muge-anliya-rakip-oluyor-0302171200_l2.jpg",
+		"twitter":"yalcincakir"
+	},
+  {
+		"name": "Λbdullah Uğraşkan" ,
+		"image": "https://pbs.twimg.com/profile_images/855148047063502849/GDuRF9Yj.jpg" ,
+		"twitter": "apoStyLEE",
+		"ipucu": "Trabzon SiberUzay",
+		"hakkinda": "Yazılım Zanaatkarı for SiberUzay 🚀 Trabzon"
+	}
 
 
 
