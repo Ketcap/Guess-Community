@@ -145,12 +145,22 @@ export const CommunityMembers = [
 		"twitter":"alpcanaydin"
 	},
 	{
+		"name":"Tuna Vargı",
+		"image":"https://pbs.twimg.com/profile_images/668788508677554176/v6jsI7pM.jpg",
+		"twitter":"tunavargi"
+	},
+	{
+		"name":"Yalçın Çakır",
+		"image":"http://odatv.com/images/2017_02/2017_02_03/yalcin-cakir-muge-anliya-rakip-oluyor-0302171200_l2.jpg",
+		"twitter":"yalcincakir"
+	},
+  {
 		"name": "Λbdullah Uğraşkan" ,
 		"image": "https://pbs.twimg.com/profile_images/855148047063502849/GDuRF9Yj.jpg" ,
 		"twitter": "apoStyLEE",
 		"ipucu": "Trabzon SiberUzay",
 		"hakkinda": "Yazılım Zanaatkarı for SiberUzay 🚀 Trabzon"
-	},
+	}
 
 
 
