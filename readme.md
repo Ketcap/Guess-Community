@@ -13,8 +13,8 @@ Eklenilmesini istediğiniz bir kişi varsa yada bu kişi sizseniz
 	"name": Kişi Adı ,
 	"image": Resim URL'i açıldığı sürece neresi olduğu önemli değil ,
 	"twitter": Twitter'daki username,
-	"ipucu": İleride ipucu vermek için kullanılıcak alan,
-	"hakkinda": Bilinemediği takdirde kullanıcıya verilicek olan bilgi
+	"hint": İleride ipucu vermek için kullanılıcak alan,
+	"about": Bilinemediği takdirde kullanıcıya verilicek olan bilgi
 }
 ```
 Şeklinde [Data.js](https://github.com/Ketcap/Guess-Community/blob/master/imports/startup/server/data.js) dosyasının en altında pr oluşturabilirsiniz ya da issue olarak bu şekilde datayı paylaşabilirsiniz.
