@@ -131,7 +131,7 @@ export const CommunityMembers = [
 	},
 	{
 		"name":"Hana Kamer",
-		"image":"https://pbs.twimg.com/profile_images/780153425682173952/92JPy0rY.jpg",
+		"image":"https://pbs.twimg.com/profile_images/872141565380186113/TeDOZDUx.jpg",
 		"twitter":"terskaplumbaa"
 	},
 	{
