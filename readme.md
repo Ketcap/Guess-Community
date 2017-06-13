@@ -3,6 +3,16 @@
 Oyun için link : [Oyun](https://guess-community.herokuapp.com/)
 
 
+
+### Düşünülen Özellikler
+
+- [ ] Sıralı tam liste oluşturulucak ve filtrelenebilir olucak.
+
+- [ ] Kaybettiniz ekranında bilinemeyen kişi için bilgi kartı hazırlanacak.
+
+- [ ] Kişileri çalıştığı ve ya uzman olduğu alanlara göre bölmek. ( Oyun için ve listede insanları tanımak için )
+
+
 Amacı : Sizlerin olabildiğince topluluğu tanımanız ve iletişim haline geçebilmenizi sağlamak.
 
 
