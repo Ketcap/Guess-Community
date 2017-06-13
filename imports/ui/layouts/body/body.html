@@ -1,3 +1,7 @@
 <template name="App_body">
-  {{> Template.dynamic template=main}}
+	{{> menu}}
+	<div class="row" style="height:calc(100vh - 64px);">
+		{{> Template.dynamic template=main}}
+
+	</div>
 </template>

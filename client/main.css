@@ -2,5 +2,9 @@
 	.inline-on-small{
 		display: inline-block;
 	}
-	
+
+}
+
+div.row{
+	margin-bottom: 0px;
 }

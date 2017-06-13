@@ -1,5 +1,5 @@
 <template name="App_finish">
-	<div class="row valign-wrapper" style="height:100vh">
+	<div class="row valign-wrapper" style="height:100%">
 		<div class="col s12 m8 offset-m2">
 			<div class="card">
 				<div class="card-content">
@@ -13,6 +13,9 @@
 						{{/if}}
 						{{#if data.linkedin}}
 						<a href="{{data.linkedin}}"  target="_blank"><span class="socicon socicon-linkedin left" style="padding:.1em;"></span></a> Adresinden ulaşabilirsiniz.
+						{{/if}}
+						{{#if data.github}}
+						<a href="{{data.github}}"  target="_blank"><span class="socicon socicon-github left" style="padding:.1em;"></span></a> Adresinden ulaşabilirsiniz.
 						{{/if}}
 					</p>
 					{{/if}}
