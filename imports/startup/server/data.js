@@ -21,13 +21,15 @@ export const CommunityMembers = [
 		"name":"Cihan Okyay",
 		"image":"https://pbs.twimg.com/profile_images/2553736706/p2pzktfm4vuv0q26ior1.jpeg",
 		"twitter":"cihann",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Oktay Elipek",
 		"image":"https://pbs.twimg.com/profile_images/695600433839149056/4NbH-5h3.jpg",
 		"twitter":"oktayelipek",
 		"gender":"m"
+		"job":"Designer"
 	},
 	{
 		"name":"Kerem Sevencan",
@@ -45,7 +47,8 @@ export const CommunityMembers = [
 		"name":"Adem İlter",
 		"image":"https://pbs.twimg.com/profile_images/850289563184623616/HPZ58mBd.jpg",
 		"twitter":"ademilter",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Furkan Açıkgöz",
@@ -75,7 +78,8 @@ export const CommunityMembers = [
 		"name":"Fatih Kadir Akın",
 		"image":"https://pbs.twimg.com/profile_images/763012516561780736/eK6n4vgr.jpg",
 		"twitter":"fkadev",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Doğukan Güven Nomak",
@@ -87,13 +91,15 @@ export const CommunityMembers = [
 		"name":"Fatih Acet",
 		"image":"https://pbs.twimg.com/profile_images/839895750481948673/QzmwOIzy.jpg",
 		"twitter":"fatihacet",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Fatih Erikli",
 		"image":"https://avatars0.githubusercontent.com/u/1220743?v=3&s=400",
 		"twitter":"fthrkl",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Hamza Şamlıoğlu",
@@ -111,7 +117,8 @@ export const CommunityMembers = [
 		"name":"Bilgem Cakir",
 		"image":"https://pbs.twimg.com/profile_images/530566318374662144/HcKYp24a.jpeg",
 		"twitter":"BilgemCakir",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Fatih Turan",
@@ -123,37 +130,43 @@ export const CommunityMembers = [
 		"name":"Bilal Çınarlı",
 		"image":"https://pbs.twimg.com/profile_images/454945791933562880/ZEjyFHbZ.jpeg",
 		"twitter":"bcinarli",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Jaana Burcu Doğan",
 		"image":"https://pbs.twimg.com/profile_images/866848888967368704/cnl5cb3J.jpg",
 		"twitter":"rakyll",
-		"gender":"f"
+		"gender":"f",
+		"job":"Developer"
 	},
 	{
 		"name":"Nesrin Kalender",
 		"image":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/0eb/21d/222f88b.jpg",
 		"twitter":"nesrinkalender",
-		"gender":"f"
+		"gender":"f",
+		"job":"Developer"
 	},
 	{
 		"name":"Fatih Arslan",
 		"image":"https://pbs.twimg.com/profile_images/617484206512324608/9B5_6E_g.jpg",
 		"twitter":"fatih",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Burak Yiğit Kaya",
 		"image":"https://pbs.twimg.com/profile_images/569981654765039616/XBRdWMOS.jpeg",
 		"twitter":"madbyk",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Hüseyin Mert",
 		"image":"https://pbs.twimg.com/profile_images/818008271059636224/tBNSMTjf.jpg",
 		"twitter":"hmert",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Hana Kamer",
@@ -165,7 +178,8 @@ export const CommunityMembers = [
 		"name":"Burak Can",
 		"image":"https://pbs.twimg.com/profile_images/744812523778539520/FpnZkkju.jpg",
 		"twitter":"neoberg",
-		"gender":"m"
+		"gender":"m",
+		"job":"Developer"
 	},
 	{
 		"name":"Alpcan Aydın",
