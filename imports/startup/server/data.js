@@ -28,7 +28,7 @@ export const CommunityMembers = [
 		"name":"Oktay Elipek",
 		"image":"https://pbs.twimg.com/profile_images/695600433839149056/4NbH-5h3.jpg",
 		"twitter":"oktayelipek",
-		"gender":"m"
+		"gender":"m",
 		"job":"Designer"
 	},
 	{
@@ -215,7 +215,4 @@ export const CommunityMembers = [
 		"hint": "Trabzon SiberUzay",
 		"about": "Yazılım Zanaatkarı for SiberUzay 🚀 Trabzon"
 	}
-
-
-
 ]
