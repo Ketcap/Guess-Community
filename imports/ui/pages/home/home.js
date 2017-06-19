@@ -9,9 +9,9 @@ import { Community } from '/imports/api/community/community.js';
 var Shuffle = require('shuffle-array');
 
 Template.App_home.onCreated(function(){
-	// ReactiveVar Definitions
-	_self = this;
-
+	//Template Variable
+		_self = this;
+		// ReactiveVar Definitions
 	_self.answers = new ReactiveVar();
 	_self.question = new ReactiveVar();
 	_self.wrong_answer = new ReactiveVar();
