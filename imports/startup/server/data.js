@@ -45,7 +45,7 @@ export const CommunityMembers = [
 	},
 	{
 		"name":"Adem İlter",
-		"image":"https://pbs.twimg.com/profile_images/850289563184623616/HPZ58mBd.jpg",
+		"image":"https://pbs.twimg.com/profile_images/874300855968825344/mY6GQkvl_400x400.jpg",
 		"twitter":"ademilter",
 		"gender":"m",
 		"job":"Developer"
