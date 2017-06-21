@@ -3,6 +3,11 @@
 Oyun için link : [Oyun](https://guess-community.herokuapp.com/)
 
 
+#### Kullanılanlar :
+
+- [x] [Meteor.js](meteor.com)
+- [x] [Materialize.css](materializecss.com)
+- [x] [Web Gradients](https://webgradients.com/)
 
 ### Düşünülen Özellikler
 
@@ -25,7 +30,7 @@ Eklenilmesini istediğiniz bir kişi varsa yada bu kişi sizseniz
 	"twitter": Twitter'daki username,
 	"hint": İleride ipucu vermek için kullanılıcak alan,
 	"about": Bilinemediği takdirde kullanıcıya verilicek olan bilgi,
-	"job": Çalışma Alanı - Developer/ Designer vb. 
+	"job": Çalışma Alanı - Developer/ Designer vb.
 }
 ```
 Şeklinde [Data.js](https://github.com/Ketcap/Guess-Community/blob/master/imports/startup/server/data.js) dosyasının en altında pr oluşturabilirsiniz ya da issue olarak bu şekilde datayı paylaşabilirsiniz.
