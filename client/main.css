@@ -1,3 +1,9 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
 @media only screen and (max-width: 600px){
 	.inline-on-small{
 		display: inline-block;
@@ -7,4 +13,17 @@
 
 div.row{
 	margin-bottom: 0px;
+}
+
+main {
+	flex: 1 0 auto;
+}
+body{
+	background-image: url('/img/8.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.btn1{
+background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
 }
