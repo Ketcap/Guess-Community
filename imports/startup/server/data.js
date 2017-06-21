@@ -135,7 +135,7 @@ export const CommunityMembers = [
 	},
 	{
 		"name":"Jaana Burcu Doğan",
-		"image":"https://pbs.twimg.com/profile_images/866848888967368704/cnl5cb3J.jpg",
+		"image":"https://pbs.twimg.com/profile_images/876070247941292032/p_8pRJtZ_400x400.jpg",
 		"twitter":"rakyll",
 		"gender":"f",
 		"job":"Developer"
