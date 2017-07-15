@@ -6,6 +6,7 @@ import '../../ui/layouts/body/body.js';
 import '../../ui/pages/home/home.js';
 import '../../ui/pages/main/index.js';
 import '../../ui/pages/win/index.js';
+import '../../ui/pages/list/index.js';
 
 
 BlazeLayout.setRoot('body')
@@ -29,6 +30,13 @@ FlowRouter.route('/win', {
   name: 'App.win',
   action() {
     BlazeLayout.render('App_body', { main: 'App_win' });
+  },
+});
+
+FlowRouter.route('/list', {
+  name: 'App.list',
+  action() {
+    BlazeLayout.render('App_body', { main: 'App_list' });
   },
 });
 

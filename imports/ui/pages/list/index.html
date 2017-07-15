@@ -1,0 +1,30 @@
+<template name="App_list">
+	{{#if subsReady}}
+		<div class="row">
+			<ul class="collection col s12">
+				{{#each member}}
+					<li class="collection-item"><a href="#!">{{name}}
+						{{#if twitter}}
+						<a href="https://twitter.com/{{data.twitter}}" target="_blank" class="secondary-content"><span class="socicon socicon-twitter left " style="padding:.2em;"></span></a>
+						{{/if}}
+						{{#if linkedin}}
+						<a href="{{data.linkedin}}"  target="_blank" class="secondary-content"><span class="socicon socicon-linkedin left" style="padding:.1em;"></span></a>
+						{{/if}}
+						{{#if github}}
+						<a href="{{data.github}}"  target="_blank" class="secondary-content"><span class="socicon socicon-github left" style="padding:.1em;"></span></a>
+						{{/if}}
+					</a>
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+	{{else}}
+		<div class="row valign-wrapper" style="height:calc(100vh - 64px)">
+			<div class="col s12 center-align">
+				{{> loading}}
+			</div>
+		</div>
+	{{/if}}
+</template>
+
+<!-- TODO:  Gorsel Duzenlenecek Listelemede Daha Guzel bir arayuz hazirlanacak -->
