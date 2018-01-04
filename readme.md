@@ -1,6 +1,4 @@
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/tpPix4ZmzY6dhNh7SnGSvHPH/Ketcap/Guess-Community'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/tpPix4ZmzY6dhNh7SnGSvHPH/Ketcap/Guess-Community.svg' />
-</a>
+
 
 ## Geliştici ve Tasarımcı Topluluğu Tahmini
 
